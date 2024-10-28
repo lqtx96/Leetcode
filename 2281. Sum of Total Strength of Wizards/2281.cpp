@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/sum-of-total-strength-of-wizards/
+
 // Monotonic stack
 // Time complexity: O(n)
 // Space complexity: O(n)

@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/longest-palindromic-substring/
+
 // Two-pointer expand around center
 // Time complexity: O(n^2)
 // Space complexity: O(1)
@@ -21,7 +23,7 @@ public:
 
         return s.substr(start, maxLength);
     }
-
+private:
     void expandAroundCenter(const string& s, int left, int right, int& start, int& maxLength) {
         while (left >= 0 && right < s.size() && s[left] == s[right]) {
             --left;
