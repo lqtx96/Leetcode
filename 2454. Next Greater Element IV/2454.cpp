@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/next-greater-element-iv/
+// https://leetcode.com/problems/next-greater-element-iv
 
 // Two monotonic stack
 // Time: O(n)
@@ -28,6 +28,7 @@ public:
                 stack2.push(temp[j]);
             }
         }
+		
         return result;
     }
 };

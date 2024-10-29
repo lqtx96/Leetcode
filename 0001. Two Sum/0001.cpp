@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/two-sum/
+// https://leetcode.com/problems/two-sum
 
 // Two-pointer
 // Time complexity: O(n*(log(n)), O(n) in the worst case (iterate through the vector with two pointers from both ends until they meet)

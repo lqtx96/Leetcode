@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/sum-of-subarray-minimums/
+// https://leetcode.com/problems/sum-of-subarray-minimums
 
 // Monotonic stack
 // Time complexity: O(n)

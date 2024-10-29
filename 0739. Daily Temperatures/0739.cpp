@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/daily-temperatures/
+// https://leetcode.com/problems/daily-temperatures
 
 // Monotonic stack
 // Time: O(n)

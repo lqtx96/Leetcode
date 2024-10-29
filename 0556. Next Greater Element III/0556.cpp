@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/next-greater-element-iii/
+// https://leetcode.com/problems/next-greater-element-iii
 
 // Next permutation
 // Time: O(d) (d is the number of digits in n)
@@ -18,9 +18,8 @@ public:
             return -1;
 
         int j = length - 1;
-        while (numStr[j] <= numStr[i]) {
+        while (numStr[j] <= numStr[i])
             --j;
-        }
 
         swap(numStr[i], numStr[j]);
 		
@@ -28,6 +27,9 @@ public:
 
         long long result = stoll(numStr);
         
-        return (result > INT_MAX) ? -1 : static_cast<int>(result);
+        if (result > INT_MAX)
+            return -1;
+        else
+            return static_cast<int>(result);
     }
 };
